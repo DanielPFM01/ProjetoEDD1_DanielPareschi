@@ -15,7 +15,7 @@ public class Main {
 
         Pessoa p1 = new Pessoa("Daniel", 2002);
         Pessoa p2 = new Pessoa("Pedro", 1999);
-        Pessoa p3 = new Pessoa("Lucas", 1900);
+        Pessoa p3 = new Pessoa("Lucas", 2012);
 
         Conta conta1 = new Conta(4, p1, 50.00);
         Conta conta2 = new Conta(1, p2, 80.00);

@@ -36,6 +36,10 @@ public class Conta implements Comparable<Conta> {
 
     @Override
     public String toString() {
+        if (this.dono == null){
+            return "";
+        }
+
         return "{" +
                 "Numero da conta = " + nConta +
                 ", Dono = '" + dono.getNome() + '\'' +
